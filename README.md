@@ -32,7 +32,7 @@ The following five method are available in `index.php` to test the `BookControll
 $book->delete(1); //required id as parameter
 $book->deleteBulk();
 $book->store();
-$book->update();
+$book->update(1); //required id as parameter
 $book->findLatest();
 $book->show(2); //required id as parameter
 $book->index();
