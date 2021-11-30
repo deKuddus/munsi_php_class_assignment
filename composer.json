@@ -1,0 +1,19 @@
+{
+    "name": "book/book",
+    "type": "project",
+    "description": "A book tracking app",
+    "keywords": [
+        "book",
+        "tracking",
+        "PHP"
+    ],
+    "lisence": "MIT",
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
